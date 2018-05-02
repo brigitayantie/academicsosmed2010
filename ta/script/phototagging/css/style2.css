@@ -1,0 +1,51 @@
+
+.clear { clear:both; }
+.hide { display:none; }
+
+
+/* Auto Complete CSS */
+h3 { margin: 0px; padding: 0px; }
+
+.start-tagging, .finish-tagging {
+	width:380px;
+	height:25px;
+	padding:10px 0 0 20px;
+	background:#09F;
+	
+	border:1px solid #333;
+	cursor:pointer;
+}
+
+
+/* Image Map CSS */
+.map { margin:0; padding:0; background:url(map.jpg) top left no-repeat #fff; font-family:arial, helvetica, sans-serif; font-size:8pt; }
+.map li { margin:0; padding:0; list-style:none; }
+.map li a { position:absolute; display:block;
+/*
+   Specifying a background image
+   (a 1px by 1px transparent gif)
+   fixes a bug in older versions of
+   IE that causeses the block to not
+   render at its full dimensions.
+*/
+ background:url(blank.gif); text-decoration:none; color:#000; }
+.map li a span { display:none; }
+.map li a:hover span { position:absolute; display:block; left:-4px; bottom:-30px; border:1px solid #000; background:#fff; padding:5px; filter:alpha(opacity=80); opacity:0.8;  }
+
+.image { width:800px; position:relative; }
+/* Form CSS */
+#title_container { background:#fff; position:absolute; border:1px solid #000; width:150px; padding:10px; }
+label { font-size:14px; font-weight:bold; color:#F00; }
+input { width:100px; }
+h1 span { font-size:50%; color:#F00; font-style:italic; }
+h2 { margin:20px 0 0px; }
+.send { position:absolute; left:5px; top:755px; }
+
+/* Error box */
+#error-box { width:200px; height:60px; padding:10px; margin-left:300px; background:#ffadad; border:1px #000 solid; position:absolute; top:303px; z-index:1; }
+.confirm { background:#0FC !important; color:#333 !important; }
+.err { list-style-image:url('../images/Cancel_16x16.png'); margin-left:25px; }
+.confirm .err { list-style-image:url('../images/check.gif'); }
+.err li { margin-bottom:8px; }
+.closebtn { position:absolute; bottom:10px; right:10px; background:url('../images/Cancel_16x16.png') no-repeat 0px 0; padding-left:15px; }
+.confirm .closebtn { background:url('../images/check.gif') no-repeat 0px 0; }

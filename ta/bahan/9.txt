@@ -1,0 +1,27 @@
+REPEATER berfungsi untuk penguat sinyal dari kabel , misalnya pada sebuah jaringan LAN dengan topologi start yang menggunakan kabel UTP .
+
+Hub itu bisa disebut sebagai 'tempat pertemuan' atau 'tempat berkumpul'.
+
+Dalam istilah di Jaringan/Network, Hub adalah alat tempat menyambungnya beberapa komputer (dan perangkat Network lainnya, seperti Printer) menjadi satu, untuk 'berkumpul' menjadi LAN, sehingga semua perangkat tersebut dapat berkomunikasi dengan yang lain. Kegunaan dari LAN (baik menggunakan Hub maupun Switch) adalah supaya semua perangkat yang terpasang dapat melakukan 'sharing', misalnya berbagi akses ke Internet, dlsb.
+
+Bedanya Hub dengan Switch di LAN adalah, Hub itu saat menerima satu Input, akan meneruskan ke semua Output, sementara Switch itu saat menerima satu Input, akan meneruskan ke Output tujuan saja. Misalkan, komputer A,B, dan C, terpasang di Hub. A mengirim data untuk B. Saat Hub menerima (Input) dari A, maka Hub akan meneruskan (Output) ke B dan C. Apabila menggunakan Switch, saat menerima dari A, si Switch hanya akan meneruskan ke B saja.
+
+
+Dalam istilah di Perangkat Komputer, Hub bisa dilihat sebagai 'cabang' dari satu Port. Misalnya, USB Hub itu adalah alat yang dipasang di satu USB Port di komputer, yang berisi beberapa USB Port lagi, sehingga praktis satu USB Port di komputer dicabangkan menjadi beberapa USB Port.
+
+Media Converter "Just Convert-It" 10Base-T to 10BAse-FL adalah perangkat yang tidak mahal, tidak perlu syarat khusus yang digunakan untuk memperpanjang jarak koneksi Ethernet dengan menggunakan kabel fiber optik, Perangkat ini tidak mengurangi kualitas dan kehandalan-nya dari produk dengan Fitur Lengkap lainnya di product Transition
+
+Disingkat dengan (NIC). Card penghubung PC dengan jaringan, sehingga memungkinkan komputer anda untuk terkoneksi ke sebuah jaringan komputer. Bentuk yang paling umum dari NIC adalah ethernet - metode yang sangat cepat dalam mentransfer data antara komputer. NIC memungkinkan sebuah komputer untuk memberi dan mengambil informasi dari komputer lain yang ada di jaringan yang sama - dapat Internet ataupun Local Area Network (LAN). Sebuah LAN merupakan jaringan tertutup yang terhubung melalui beberapa NIC dan hub, yang biasanya tidak terhubung ke dunia luar atau Internet. Penggunaan hub memungkinkan beberapa komputer untuk berbagi sebuah kabel koneksi ke luar (1 kabel terkoneksi ke hub lain atau sebuah router, dan hub tersebut memberi 5 (atau lebih/kurang) koneksi kepada komputer-komputer yang tersambung padanya.
+
+AUI (Attachment Unit Interface) adalah salah satu bagian dari standar konektor Ethernet yang menjelaskan bagaimana sebuah kabel dikoneksikan ke kartu Ethernet dengan konektor 15-pin D-connector. Salah satu penggunaannya adalah untuk mengkoneksikan kabel thick ethernet (RG-8) ke kartu ethernet.
+
+Funsi Transceivers ??
+Types Transceivers ??
+
+Perbedaan hub dan repeater ??
+-Not all hubs are repeaters, but every repeater is a hub
+-Stackable hubs are daisy-chained together using an external cable, which enables them to function as a single hub.
+-A four-port “hub.” Without any type of qualification, we do not know if this is a repeater hub or a switch hub.
+-In a repeater hub, if data on port A are destined to port C, all ports receive the data. In a switch hub, if data on port A are destined to port C, only port C receives the data.
+ 
+Three types of Ethernet/802.3 transceivers 

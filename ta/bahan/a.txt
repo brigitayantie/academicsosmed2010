@@ -1,0 +1,21 @@
+FUNCTION timeDifference(laterdate,earlierdate) {
+    VAR difference = laterdate.getTime() - earlierdate.getTime();
+ 
+    VAR daysDifference = Math.floor(difference/1000/60/60/24);
+    difference -= daysDifference*1000*60*60*24
+ 
+    VAR hoursDifference = Math.floor(difference/1000/60/60);
+    difference -= hoursDifference*1000*60*60
+ 
+    VAR minutesDifference = Math.floor(difference/1000/60);
+    difference -= minutesDifference*1000*60
+ 
+    VAR secondsDifference = Math.floor(difference/1000);
+ 
+ document.WRITE('difference = ' + daysDifference + ' day/s ' + hoursDifference + ' hour/s ' + minutesDifference + ' minute/s ' + secondsDifference + ' second/s ');
+ }
+
+VAR laterdate = NEW Date(2000,0,1);     // 1st January 2000
+VAR earlierdate = NEW Date(1998,2,13);  // 13th March 1998
+ 
+timeDifference(laterdate,earlierdate);
